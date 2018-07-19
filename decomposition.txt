@@ -1,0 +1,8 @@
+Initial thoughts:
+1 - Regardless of the condition, it always assigns the price_suggestion to price_original.
+2 - The initial branching happens based on the brand rating.
+3 - Brand rating low = multiply by factor of 0.9.
+4 - Brand rating high = multiply by factor of 1.1.
+5 - The only thing the price_reference influences is the factor that the shipping cost is multiplied by.
+6 - There is a dependency relation between the price_reference and shipping cost factor
+7 - There is a dependency relation between the brand rating and the total factor
